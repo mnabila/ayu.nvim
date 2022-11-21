@@ -1,0 +1,23 @@
+local mirage = {
+    none = "NONE",
+	bg = "#212733",
+	comment = "#5C6773",
+	markup = "#F07178",
+	constant = "#D4BFFF",
+	operator = "#80D4FF",
+	tag = "#5CCFE6",
+	regexp = "#95E6CB",
+	string = "#BBE67E",
+	func = "#FFD57F",
+	special = "#FFC44C",
+	keyword = "#FFAE57",
+	error = "#FF3333",
+	accent = "#FFCC66",
+	panel = "#272D38",
+	guide = "#3D4751",
+	line = "#242B38",
+	selection = "#343F4C",
+	fg = "#D9D7CE",
+	fg_idle = "#607080",
+}
+return mirage

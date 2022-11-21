@@ -1,0 +1,23 @@
+local dark = {
+    none = "NONE",
+	bg = "#0F1419",
+	comment = "#5C6773",
+	markup = "#F07178",
+	constant = "#FFEE99",
+	operator = "#E7C547",
+	tag = "#36A3D9",
+	regexp = "#95E6CB",
+	string = "#B8CC52",
+	func = "#FFB454",
+	special = "#E6B673",
+	keyword = "#FF7733",
+	error = "#FF3333",
+	accent = "#F29718",
+	panel = "#14191F",
+	guide = "#2D3640",
+	line = "#151A1E",
+	selection = "#253340",
+	fg = "#E6E1CF",
+	fg_idle = "#3E4B59",
+}
+return dark
