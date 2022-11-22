@@ -1,5 +1,5 @@
-local base = require("ayu.base")
-local c = require("ayu.colors")
+local base = require("ayune.base")
+local c = require("ayune.colors")
 
 local theme = {
 	CmpDocumentation = base.NormalFloat,

@@ -1,4 +1,4 @@
-local c = require("ayu.colors")
+local c = require("ayune.colors")
 
 local theme = {
 	htmlTag = { fg = c.tag, bold = true },

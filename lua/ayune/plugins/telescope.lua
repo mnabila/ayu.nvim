@@ -1,4 +1,4 @@
-local c = require("ayu.colors")
+local c = require("ayune.colors")
 
 local theme = {
 	TelescopeSelection = { bg = c.selection, fg = c.fg, bold = true },

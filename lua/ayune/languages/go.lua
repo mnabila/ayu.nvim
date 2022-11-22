@@ -1,5 +1,5 @@
-local c = require("ayu.colors")
-local base = require("ayu.base")
+local c = require("ayune.colors")
+local base = require("ayune.base")
 local theme = {
 	goDirective = { fg = c.aqua },
 	goConstants = base.Constant,

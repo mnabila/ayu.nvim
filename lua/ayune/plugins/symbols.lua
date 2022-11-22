@@ -1,4 +1,4 @@
-local c = require("ayu.colors")
+local c = require("ayune.colors")
 
 local theme = {
 	FocusedSymbol = { fg = c.selection, reverse = true },

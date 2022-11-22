@@ -1,4 +1,4 @@
-local base = require("ayu.base")
+local base = require("ayune.base")
 
 local theme = {
 	GitSignAdd = base.DiffAdd,
