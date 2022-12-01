@@ -30,6 +30,5 @@ local dark = {
 	panel = "#14191F",
 	guide = "#2D3640",
 	selection = "#253340",
-	fg_idle = "#3E4B59",
 }
 return dark

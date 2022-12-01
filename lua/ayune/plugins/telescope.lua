@@ -11,11 +11,11 @@ local theme = {
 	TelescopePreviewBorder = { fg = c.fg_idle },
 	TelescopePromptBorder = { fg = c.fg_idle },
 	TelescopeResultsBorder = { fg = c.fg_idle },
-	--
-	-- -- Color the prompt prefix
-	TelescopePromptPrefix = { fg = c.func },
-	--
-	-- -- Highlight characters your input matches
+
+	-- Color the prompt prefix
+	TelescopePromptPrefix = { fg = c.accent },
+
+	-- Highlight characters your input matches
 	TelescopeMatching = { fg = c.func, bold = true },
 }
 

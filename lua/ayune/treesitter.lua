@@ -1,6 +1,7 @@
 local base = require("ayune.base")
+local c = require("ayune.colors")
 local theme = {
-	["@text.literal"] = base.Comment,
+	["@text.literal"] = { fg = c.keyword, bold = true },
 	["@text.reference"] = base.Identifier,
 	["@text.title"] = base.Title,
 	["@text.uri"] = base.Underlined,
@@ -24,7 +25,7 @@ local theme = {
 	["@function"] = base.Function,
 	["@function.builtin"] = base.Special,
 	["@function.macro"] = base.Macro,
-	["@parameter"] = base.Identifier,
+	["@parameter"] = { fg = c.constant },
 	["@method"] = base.Function,
 	["@field"] = base.Identifier,
 	["@property"] = base.Identifier,
